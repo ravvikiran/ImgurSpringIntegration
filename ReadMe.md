@@ -6,7 +6,6 @@ This document provides instructions for using the Imgur Spring Boot integration.
 
 Requirements fulfilled:-
 * User details such as username and password will be saved in the backend
-* Basic authentication provided
 * On Successfull authentication, user can view, upload and delete images from Imgur via APIs.
 * Single or multiple images can be uploaded at a time.
 * Images will not be accepted at the time of creation of new user.
@@ -14,7 +13,6 @@ Requirements fulfilled:-
 # Technologies Used
 
 The following technologies are used in this integration:
-
 
 * Java 1.8
 * Spring Boot 3.0.5
@@ -67,3 +65,9 @@ If the username and password match, the API will return success message. If the 
         {api-url}/api/users/{imageid}/{username}/{password}
 
 If the username and password match, the API will return success message. If the username and password do not match, an error message will be returned.
+
+# Limitations
+
+* Basic Authentication for APIs
+* Test classes are not included
+
